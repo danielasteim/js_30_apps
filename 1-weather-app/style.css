@@ -64,9 +64,9 @@ body {
     display: none;
 }
 
-/** .weather { hidding this untill i can finish 
+.weather { 
     display: none;
-} **/
+}
 
 .weather-icon {
     width: 250px;
