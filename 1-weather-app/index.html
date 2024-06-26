@@ -6,31 +6,60 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="card">
+        <div class="search-options">
             <div class="search">
                 <input type="text" placeholder="city name" spellcheck="false">
                 <button><img src="images/search.png" alt="search city"></button>
             </div>
+            <div class="units">
+                <button class="c"><img src="images/c.png"></button>
+                <button class="f"><img src="images/f.png"></button>
+            </div>
             <div class="error">
                 <p>invalid city name</p>
             </div>
+        </div>
+
+        <div class="card">
+            
+            
             <div class="weather">
+                
                 <img src="images/mist.png" alt="current weather representation" class="weather-icon">
-                <h1 class="temp">22 ºC</h1>
+                <p class="img-description">partly cloudly</p>
+                <h1 class="temp">22 ºC in</h1>
                 <h2 class="city">São Paulo</h2>
+                <h3 class="feels-like">but feels like 20 ºC</h3>
+
                 <div class="details">
-                    <div class="col">
-                        <img src="images/humidity.png">
-                        <div>
-                            <p class="humidity">50%</p>
-                            <p>humidity</p>
+                    <div>
+                        <div class="col">
+                            <div>
+                                <p class="min">50%</p>
+                            </div>
+                            <img src="images/min.png" alt="min temperature">
+                        </div>
+                        <div class="col">
+                            <img src="images/max.png" alt="max temperature">
+                            <div>
+                                <p class="max">50%</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <img src="images/wind.png">
-                        <div>
-                            <p class="wind">15 km/h</p>
-                            <p>wind speed</p>
+                    <div>
+                        <div class="col">
+                            <img src="images/humidity.png">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="images/wind.png">
+                            <div>
+                                <p class="wind">15 km/h</p>
+                                <p>wind speed</p>
+                            </div>
                         </div>
                     </div>
                 </div>
