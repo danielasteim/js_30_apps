@@ -8,9 +8,6 @@ png image from pngtree.com
 [Search png icon source](https://pngtree.com/element/down?id=Mzk5NDk4Ng==&type=1&time=1719379986&token=ZjEzMjI3ZWFlMTAzNmQ0YTljNjBlZTU4YjMxNTcxZDE=&t=0) | 
 [Open Weather API](https://openweathermap.org/current#name)
 
-
-### Project Documentation
-
 #### Estimated Time: 1.5 Hours
 
 ### New Concepts Learned:
@@ -33,8 +30,6 @@ png image from pngtree.com
 ### Resources
 png image from pngtree.com
 [tutotial](https://youtu.be/G0jO8kUrg-I?si=drWERFSAte5bnp8x)
-### Project Documentation
-
 #### Estimated Time: 40 minutes
 ### New Concepts Learned:
 
@@ -51,8 +46,29 @@ png image from pngtree.com
 
 ### Additional Features:
 - **Icon usage:** Instead of using unchecked boc just uses a white empty block by CSS.
-----------------------------------
 
+# Quizz App
+### Resources
+[tutorial](https://youtu.be/PBcqGxrr9g8?si=sdJD2PsjojwtEdCS)
+
+### Project Documentation
+#### Estimated Time: 
+### New Concepts Learned:
+
+- **CSS:** 
+  - `transition: 0.3s` add a transition between actions like hover
+  - `btn:hover:not([disabled])`
+- **HTML:**
+  - `tag#id_name` creates an tag with the desired id in VSCODE
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- **Simplification**: Removed resetState() function and just added `answerButton.innerHTML = " ";` to showQuestion() instead.
+
+
+
+----------------------------------
 # APP NAME
 ### Resources
 ### Project Documentation
@@ -66,4 +82,4 @@ png image from pngtree.com
   - 
 
 ### Additional Features:
-- **Temperature Units:** Option to toggle between °F and °C.
+- **Simplification**: Removed resetState() function and just added `answerButton.innerHTML = " ";` to showQuestion() instead.
