@@ -52,7 +52,7 @@ png image from pngtree.com
 [tutorial](https://youtu.be/PBcqGxrr9g8?si=sdJD2PsjojwtEdCS)
 
 ### Project Documentation
-#### Estimated Time: 
+#### Estimated Time: 2hours
 ### New Concepts Learned:
 
 - **CSS:** 
@@ -66,7 +66,46 @@ png image from pngtree.com
 ### Additional Features:
 - **Simplification**: Removed resetState() function and just added `answerButton.innerHTML = " ";` to showQuestion() instead.
 
+# Password Generator
+### Resources
+### Project Documentation
+#### Estimated Time: 30mins
+### New Concepts Learned:
 
+- **CSS:** 
+- **HTML:**
+  - 
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- **User input**: User can choose how many letters and what attributes to have on password (STILL IN PROGRESS)
+
+# Notes App
+### Resources
+### Project Documentation
+#### Estimated Time: 
+### New Concepts Learned:
+
+- **CSS:** 
+- **HTML:**
+  - `.name` 
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- **Simplification**: Removed resetState() function and just added `answerButton.innerHTML = " ";` to showQuestion() instead.
+
+# Age Calculator
+### Resources
+#### Estimated Time: 
+### New Concepts Learned:
+
+- **JavaScript:**
+  - Learned how to work with Date class
+
+### Additional Features: TO DO
+- Change concept to algels numbers
 
 ----------------------------------
 # APP NAME
