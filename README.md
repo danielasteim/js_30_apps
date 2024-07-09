@@ -105,7 +105,23 @@ png image from pngtree.com
   - Learned how to work with Date class
 
 ### Additional Features: TO DO
-- Change concept to algels numbers
+- Change concept to angels numbers
+
+# Quote Generator
+### Resources
+### Project Documentation
+#### Estimated Time: 1h50
+### New Concepts Learned:
+
+- **CSS:**
+  - Transform: translate(-50%, -50%); 
+- **HTML:**
+  - `.name` 
+- **JavaScript:**
+  - Working with API's from big websitessuch a sharing a tweet.
+
+### Additional Features:
+- To-do: add more social media buttons, add image generator api to post with it.
 
 ----------------------------------
 # APP NAME
@@ -121,4 +137,4 @@ png image from pngtree.com
   - 
 
 ### Additional Features:
-- **Simplification**: Removed resetState() function and just added `answerButton.innerHTML = " ";` to showQuestion() instead.
+- **Simplification**: Removed resetState() function and just added 
