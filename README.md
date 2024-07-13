@@ -123,6 +123,42 @@ png image from pngtree.com
 ### Additional Features:
 - To-do: add more social media buttons, add image generator api to post with it.
 
+# QR Code Generator
+### Resources
+### New Concepts Learned:
+- **CSS:** 
+- **HTML:**
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- **Simplification**: download image
+
+# Toast Notification Feature
+### Resources
+
+### New Concepts Learned:
+- **CSS:** 
+- **HTML:**
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- **Simplification**: 
+
+
+# APP NAME
+### Resources
+### New Concepts Learned:
+
+- **CSS:** 
+- **HTML:**
+  - `.name` 
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- Sleek style, addes forward and backward features, api with songs from youtube, fix play pause function
 ----------------------------------
 # APP NAME
 ### Resources
