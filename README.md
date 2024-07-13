@@ -159,11 +159,22 @@ png image from pngtree.com
 
 ### Additional Features:
 - Sleek style, addes forward and backward features, api with songs from youtube, fix play pause function
+
+# StopWatch
+### New Concepts Learned:
+
+- **CSS:** 
+- **HTML:**
+  - `.name` 
+- **JavaScript:**
+  - 
+
+### Additional Features:
+- Add pomodoro function
+- add alarm function
+- have background change to eu summer postcards 
 ----------------------------------
 # APP NAME
-### Resources
-### Project Documentation
-#### Estimated Time: 
 ### New Concepts Learned:
 
 - **CSS:** 
