@@ -173,6 +173,43 @@ png image from pngtree.com
 - Add pomodoro function
 - add alarm function
 - have background change to eu summer postcards 
+- 
+# Calculator
+### New Concepts Learned:
+
+- **CSS:** 
+  - Putting outside shadow and inside box-shadow, for example: `box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);`
+- **HTML:**
+  - Use inputs with type buttons to display values on an element with `class.value += ''`
+- **JavaScript:**
+  - Use javascript directly on the HTML
+  - eval() function
+
+### Additional Features:
+- make the calculator implementation on javascript, add % operator
+
+# Popup
+### New Concepts Learned:
+
+- **CSS:** 
+  - Visibility attribute
+
+
+# Toggle password
+### New Concepts Learned:
+
+- **JavaScript:**
+  - You can check and change a document element type attribute with `element.type`
+
+# Dark mode
+### New Concepts Learned:
+
+- **CSS:** 
+  - create color variables with, for example `--primary-color: #fff` that can then be used with `color: var(--primary-color)`
+- **JavaScript:**
+  - can access html entire element such as the body without creating a variable, like `document.body.classList.add("class")`
+
+
 ----------------------------------
 # APP NAME
 ### New Concepts Learned:

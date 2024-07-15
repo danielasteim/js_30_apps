@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="lightMode">Light mode</button>
+        <button id="darkMode">Dark mode</button>
+    </div>
+    
+    <script>
+        let lightMode = document.getElementById("lightMode");
+        let darkMode = document.getElementById("darkMode");
+        
+
+        darkMode.onclick = function() {
+            document.body.classList.add("dark-theme");
+        }
+
+        lightMode.onclick = function() {
+            document.body.classList.remove("dark-theme");
+        }
+    </script>
+</body>
+</html>
