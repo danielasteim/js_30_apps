@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/984c2cee44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <h3>Coming Soon!</h3>
+        <h1>OurBrand New <br> Website is on its way</h1>
+        <p>subscribe for more details: </p>
+
+        <form id="form">
+            <input type="email" name="Email" placeholder="enter your email" required> 
+            <button type="submit" id="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+        <span>thank you for subscribing!</span>
+    </div>
+    
+    <script>
+        const form = document.querySelector("#form")
+        const submitButton = document.querySelector("#submit")
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrQ0AkTQa5qjfZI5fLSOsmv3E9LPY0RlS6gbySl9BR3lq87k-al2Cv7NpyU5cUreLHEA/exec'
+     
+        form.addEventListener('submit', e => {
+          submitButton.disabled = true
+          e.preventDefault()
+          let requestBody = new FormData(form)
+          fetch(scriptURL, { method: 'POST', body: requestBody})
+            .then(response => {
+               alert('Success!', response)
+               submitButton.disabled = false
+              })
+            .catch(error => {
+            alert('Error!', error.message)
+              submitButton.disabled = false
+     
+            }
+            )
+        })
+     </script>
+</body>
+</html>
