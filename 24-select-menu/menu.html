@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Selection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/984c2cee44.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="selector">
+            <div id="select-field">
+                <p id="select-text">select social media</p>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <ul id="list" class="hide">
+                <li class="options">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Facebook</p>
+                </li>
+                <li class="options">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </li>
+                <li class="options">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </li>
+                <li class="options">
+                    <i class="fa-brands fa-pinterest"></i>
+                    <p>Pinterest</p>
+                </li>
+                <li class="options">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+    var selectField = document.getElementById("select-field");
+    var selectText = document.getElementById("select-text");
+
+    var options = document.getElementsByClassName("options");
+    var list = document.getElementById("list");
+
+    for(option of options) {
+        option.onclick = function() {
+            selectText.innerHTML = this.textContent;
+            list.classList.toggle("hide");
+        }
+    }
+
+    selectField.onclick = function() {
+        list.classList.toggle("hide");
+    }
+</script>
+</body>
+</html>
